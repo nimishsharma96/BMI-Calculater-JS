@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/* body{
+    width: 100%;
+    background-color:#bdc3c7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+} */
+
+.container{
+width: 100%;
+height: 100vh;
+background-color:#fffa65;
+display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* border-radius: 30px; */
+    /* padding: 50px; */
+    
+}
+.Heading span{
+    color: #3867d6;
+}
+
+.main-body{
+    width: 400px;
+height: 200px;
+background-color:#32ff7e;
+display: flex;
+flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 40px;
+    /* border: 1px solid black; */
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.upperline{
+    
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+#age{
+    width: 85px;
+    height: 25px;
+    background-color: #fffa65;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    
+    margin-right: 10px;
+
+}
+
+#height{
+    width: 65px;
+    height: 25px;
+    background-color: #fffa65;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    
+    margin-right: 10px;
+
+
+}
+
+#weight{
+    width: 65px;
+    height: 25px;
+    background-color: #fffa65;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    
+    margin-right: 10px;
+    
+}
+
+/* #male{
+    width: 65px;
+    height: 25px;
+    background-color: #fffa65;
+    border: none;
+    border-radius: 10%;
+    margin-right: 10px;
+} */
+
+.container2{
+    /* display: block; */
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.container2 input {
+    position: absolute;
+    /* opacity: 0; */
+    cursor: pointer;
+    height: 0;
+    width: 0;
+    background-color:#fffa65;
+
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 30px;
+    background-color:#fffa65;
+    /* border-radius: 20%; */
+    border-radius: 10px;
+
+  }
+
+  #submit{
+    /* opacity: 50%; */
+    border: none;
+    background-color:#3867d6;
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+  }
+  #submit :hover{
+    background-color: aqua;
+    cursor: pointer;
+  }
+
+.bottom-results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

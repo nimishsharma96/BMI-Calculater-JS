@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>BMI Calculater</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Heading">
+            <h1><span>B</span>ody <span>M</span>ass <span>I</span>ndex <span>C</span>alculater</h1>
+        </div>
+
+        <div class="main-body">
+
+            <div class="upperline">
+                <input id="age"  type="number"><label for="number">Age</label>
+                <!-- <input id="male" type="checkbox"><label for="checkbox">Male</label> -->
+
+
+                <label class="container2">Male
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+
+                  <label class="container2">Female
+                    <input type="checkbox" checked="checked">
+                    <span class="checkmark"></span>
+                  </label>
+
+
+
+                
+
+            </div>
+
+            <div class="middle-line">
+                <input id="height" type="number"><label for="number">Height (cm)</label>
+                <input style="margin-left: 12px;" id="weight" type="number"><label for="number">Weight(KG)</label>
+
+            </div>
+
+            <div class="bottom-line">
+                <input id="submit"  type="submit">
+
+            </div>
+
+        </div>
+
+        <div class="bottom-results">
+            <h1 id="result-text"  style="margin-bottom: 20px;" >Your Body Type</h1>
+
+            <h2 id="bmi-result" >Hello ! Please Fill The Above Fields </h2>
+        </div>
+
+    </div> 
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
